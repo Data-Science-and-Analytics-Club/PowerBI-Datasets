@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Download, ChevronRight, Database, Search, Filter, X } from "lucide-react";
 
-// Update these with your actual GitHub details
+
 const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/YadneshBamne/datasets-dsa/main/public/datasets";
 
 const datasets = [
@@ -25,7 +25,7 @@ const datasets = [
       "Trend of movie and TV show releases by release year.",
       "Which countries have added more content over time? (year-wise country breakdown)",
       "Are newer movies getting longer over time? (avg duration by release year)",
-      "Which cast members appear most frequently in Netflix content?"
+      "Which genre of TV show was most released in the year 2019?"
     ]
   },
   {
