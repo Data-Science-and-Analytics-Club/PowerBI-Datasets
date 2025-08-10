@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Download, ChevronRight, Database, Search, Filter, X } from "lucide-react";
 
 
-const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/YadneshBamne/datasets-dsa/main/public/datasets";
+const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/Data-Science-and-Analytics-Club/PowerBI-Datasets/main/public/datasets";
 
 const datasets = [
   {
