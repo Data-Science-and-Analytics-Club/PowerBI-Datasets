@@ -60,7 +60,7 @@ const datasets = [
     size: "23k rows",
     features: 16,
     difficulty: "Intermediate",
-    fileType: "xlsx", // Added file type identifier
+    fileType: "xlsx",
     questions: [
       "What is the total number of cars sold?",
       "What is the total sales amount (Price) for all cars sold?",
