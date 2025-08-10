@@ -9,7 +9,7 @@ const datasets = [
     id: 1,
     name: "Netflix_Titles",
     description: "Contains metadata about titles on Netflix including their type (Movie/TV Show), cast, country of origin, release year, and age rating. Key columns include: show_id, type, title, director, cast, country.",
-    dataset: `${GITHUB_RAW_BASE}/Netflix_Titles.csv`,
+    dataset: `${GITHUB_RAW_BASE}/netflix_titles_updated.csv`,
     category: "Entertainment",
     size: "8.8k rows",
     features: 12,
@@ -37,7 +37,7 @@ const datasets = [
     size: "15k rows",
     features: 10,
     difficulty: "Intermediate",
-    fileType: "xlsx", // Added file type identifier
+    fileType: "xlsx",
     questions: [
       "What is the total sales revenue generated in the year 2023?",
       "What are the monthly sales trends across all platforms? Which month had the highest sales?",
@@ -78,12 +78,12 @@ const datasets = [
     id: 4,
     name: "BlinkIT_Grocery_Data",
     description: "Sales and inventory data from BlinkIT's grocery business including outlet, item info, and ratings. Key columns include: Item Fat Content, Item Identifier, Item Type, Outlet Establishment Year, Outlet Identifier, Outlet Location Type.",
-    dataset: `${GITHUB_RAW_BASE}/BlinkIT_Grocery_Data.xlsx`,
+    dataset: `${GITHUB_RAW_BASE}/cleaned_grocery_data.csv`,
     category: "Retail",
     size: "8.5k rows",
     features: 12,
     difficulty: "Beginner",
-    fileType: "xlsx", // Added file type identifier
+    fileType: "csv", // Added file type identifier
     questions: [
       "What is the total sales across all items?",
       "Which outlet type has the highest sales?",
@@ -101,7 +101,7 @@ const datasets = [
     id: 5,
     name: "Matches",
     description: "IPL cricket match data including match outcome, venue, teams, player of match, toss decisions, and result margins. Key columns include: id, season, city, date, match_type, player_of_match.",
-    dataset: `${GITHUB_RAW_BASE}/Matches.xlsx`,
+    dataset: `${GITHUB_RAW_BASE}/cleaned_matches.xlsx`,
     category: "Sports",
     size: "816 rows",
     features: 18,
